@@ -26,6 +26,43 @@ static KeywordToken *reserved_keywords[] = {
         {"def", 523},
         {"not", 526},
         {"and", 532},
+
+        {"若", 510}, // if
+        {"于", 518}, // in
+        {"作", 520}, // as
+        {"同", 527}, // is
+        {"或", 531}, // or
+
+        {"删", 503}, // del
+        {"试", 511}, // try
+        {"对", 517}, // for
+        {"设", 523}, // def
+        {"非", 526}, // not
+        {"与", 532}, // and
+
+        {"过", 502}, // pass
+        {"从", 514}, // from
+        {"持", 519}, // with
+        {"真", 528}, // True
+        {"空", 530}, // None
+
+        {"抛", 501}, // raise
+        {"让", 504}, // yield
+        {"出", 506}, // break
+        {"当", 512}, // while
+        {"类", 524}, // class
+        {"假", 529}, // False
+
+        {"回", 500}, // return
+        {"全", 508}, // global
+        {"引", 513}, // import
+        {"抓", 521}, // except
+
+        {"结", 522}, // finally
+
+        {"续", 507}, // continue
+        {"外", 509}, // nonlocal
+
         {NULL, -1},
     },
     (KeywordToken[]) {
@@ -54,6 +91,12 @@ static KeywordToken *reserved_keywords[] = {
         {"import", 513},
         {"except", 521},
         {"lambda", 525},
+
+        {"又若", 515}, // elif
+        {"否则", 516}, // else
+
+        {"断言", 505}, // assert
+
         {NULL, -1},
     },
     (KeywordToken[]) {
